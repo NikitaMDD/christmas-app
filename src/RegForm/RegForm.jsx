@@ -41,7 +41,7 @@ function RegForm() {
       <div className="container container-reg">
         <div className="enter">
           <div className="enter__img enter__img-reg">
-            <img src="/img/logo.png" alt="logo-img" />
+            <img src="img/logo.png" alt="logo-img" />
           </div>
           <div className="enter__text-info enter__text-info_smaller">
             Чтобы Ваш план был индивидуальным, пожалуйста, введите свой email и
@@ -71,7 +71,7 @@ function RegForm() {
             </form>
           </div>
           <div className="enter__button">
-            <button onClick={() => navigate('choose-event', {replace: false})}>Войти</button>
+            <button onClick={() => navigate('/christmas-app/choose-event', {replace: false})}>Войти</button>
           </div>
         </div>
       </div>

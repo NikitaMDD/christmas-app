@@ -1,6 +1,6 @@
 import React from "react";
 import './SnowFlake.scss'
-import snowflakeImage from '../assets/snow.png';
+import snowflakeImage from '../assets/snow.svg';
 
 function SnowFlake() {
     return(

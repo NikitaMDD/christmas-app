@@ -6,7 +6,7 @@ function StartWindow({startReg}) {
       <div className="container">
         <div className="enter">
           <div className="enter__img">
-            <img src="/img/logo.png" alt="logo-img" />
+            <img src="img/logo.png" alt="logo-img" />
           </div>
           <div className="enter__text-name rochester-regular">
             Christmas plan

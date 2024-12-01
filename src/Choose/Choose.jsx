@@ -13,7 +13,7 @@ function Choose() {
       <div className="container container-reg">
         <div className="enter enter__choose">
           <div className="enter__img enter__img-reg">
-            <img src="/img/logo.png" alt="logo-img" />
+            <img src="img/logo.png" alt="logo-img" />
           </div>
           <div className="enter__text-info enter__text-info_choose enter__text-info_smaller">
             Christmas plan поможет Вам спланировать и провести незабываемое
@@ -27,12 +27,12 @@ function Choose() {
           </div>
           <form action="" method="POST">
             <div className="enter__btns-choose">
-              <button className="btns christmas" onClick={() => navigate('/quiz', {replace: false})}>
-                <img className="star" src="/img/star.png" alt="christmas-img" />
+              <button className="btns christmas" onClick={() => navigate('/christmas-app/quiz', {replace: false})}>
+                <img className="star" src="img/star.png" alt="christmas-img" />
                 Рождество
               </button>
-              <button className="btns new-year" onClick={() => navigate('/quiz', {replace: false})}>
-                <img className="tree" src="/img/tree.svg" alt="new-year-img" />
+              <button className="btns new-year" onClick={() => navigate('/christmas-app/quiz', {replace: false})}>
+                <img className="tree" src="img/tree.svg" alt="new-year-img" />
                 Новый год
               </button>
             </div>

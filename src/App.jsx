@@ -27,9 +27,9 @@ function App() {
     <>
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={isLogged ? <RegForm/> : <StartWindow startReg={switchWindow}/> }/>
-        <Route path="choose-event" element={<Choose/>}/>
-        <Route path="quiz" element={<Quiz/>}/>
+        <Route path="*" element={isLogged ? <RegForm/> : <StartWindow startReg={switchWindow}/> }/>
+        <Route path="/christmas-app/choose-event" element={<Choose/>}/>
+        <Route path="/christmas-app/quiz" element={<Quiz/>}/>
       </Routes>
     </BrowserRouter>
       {/* <div className={`enter ${isAnimating ? (isLogged ? 'enter-exit': 'enter-enter') : ''}`}> */}
