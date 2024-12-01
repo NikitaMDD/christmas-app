@@ -1,0 +1,76 @@
+$redColor: #d70816;
+// @keyframes slideIn {
+//   from {
+//     transform: translateX(100%);
+//     opacity: 0;
+//   }
+//   to {
+//     transform: translateX(0);
+//     opacity: 1;
+//   }
+// }
+// @keyframes slideOut {
+//   from {
+//     transform: translateX(0);
+//     opacity: 1;
+//   }
+//   to {
+//     transform: translateX(-100%);
+//     opacity: 0;
+//   }
+// }
+.container {
+  margin: 36px auto 0;
+  max-width: 422px;
+  // display: flex;
+  // justify-content: center;
+  // flex-direction: column;
+  // height: 100vh;
+}
+.enter {
+  background: rgb(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 68px 0 100px;
+  border-radius: 20px;
+  transition: opacity 0.5s ease;
+}
+.enter__img {
+  width: 201px;
+  margin: 0 auto;
+}
+.enter__img img {
+  width: 201px;
+}
+.enter__text-name {
+  font-size: 56px;
+  color: $redColor;
+  margin: 14px 0 28px;
+}
+.enter__text-info {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 33px;
+  margin: 0 10px;
+}
+.enter__button {
+  margin: 38px 0 0;
+  position: relative;
+  z-index: 1;
+  button {
+    color: #ffffff;
+    font-size: 18px;
+    background: $redColor;
+    font-weight: 400;
+    border-radius: 100px;
+    border: 2px solid #ffffff;
+    padding: 9px 0;
+    width: 218px;
+    cursor: pointer;
+  }
+}
+// .enter-enter {
+//   animation: slideIn 0.5s forwards;
+// }
+// .enter-exit {
+//   animation: slideOut 0.5s forwards;
+// }

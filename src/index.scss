@@ -1,0 +1,14 @@
+body {
+  margin: 0;
+  background: url("/img/background.png") no-repeat;
+  background-size: cover;
+  font-family: "Roboto", sans-serif;
+  position: relative;
+  overflow: hidden;
+  min-height: 100vh;
+}
+.rochester-regular {
+  font-family: "Rochester", cursive;
+  font-weight: 400;
+  font-style: normal;
+}

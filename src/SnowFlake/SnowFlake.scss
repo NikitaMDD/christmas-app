@@ -1,0 +1,23 @@
+// src/components/Snowflake.scss
+.snowflake {
+  position: absolute;
+  top: -10%;
+  animation: fall linear infinite;
+  opacity: 0.9;
+  pointer-events: none;
+  z-index: 3;
+
+  img {
+    width: 1.5rem; // Задайте размер снежинки
+    height: auto; // Сохраняйте пропорции
+  }
+
+  @keyframes fall {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(100vh);
+    }
+  }
+}

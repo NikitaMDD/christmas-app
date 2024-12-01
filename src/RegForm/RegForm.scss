@@ -1,0 +1,38 @@
+$formColor: #737373;
+
+.container-reg {
+  max-width: 630px;
+}
+.enter__text-info_smaller {
+  font-size: 16px;
+  font-weight: 400;
+}
+.enter__text-info_grey {
+  color: $formColor;
+  font-weight: 400;
+  font-size: 15px;
+}
+.enter__form {
+  margin: 20px 0 0;
+  input {
+    color: #000000;
+    font-size: 16px;
+    padding: 14px 0;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background: transparent;
+    outline: none;
+    border-bottom: 1px solid $formColor;
+    width: 89%;
+  }
+  input:last-child {
+    margin: 10px 0 0;
+  }
+}
+.enter__img-reg {
+  margin: 0 auto 29px;
+  img {
+    width: 140px;
+  }
+}
